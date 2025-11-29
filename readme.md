@@ -1,3 +1,8 @@
+SUBSYSTEM=="input", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c262", MODE="0666"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c262", MODE="0666"
+KERNEL=="js*", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c262", MODE="0666"
+KERNEL=="event*", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c262", MODE="0666"
+
 # StellarXplorers Master Script
 
 ## Overview
